@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+/* Styling for header */
+.header {
+  background-image: url(./design-assets/bgk-header.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+  margin-left: 0;
+}
+.header img {
+ 
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  margin-left: 33.33%;
+}
+.header nav ul li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+.header nav li:hover {
+  color: #a401fc;
+}
+.header-content {
+  margin-top: 30px;
+  max-width: 600px; /* Begrenze die Breite des Textcontainers */
+  margin: 0 auto; /* Zentriere den Text in der Mitte */
+  text-align: center; /* Zentriere den Textinhalt im Container */
+}
+
+.header h1 {
+  font-size: 32px;
+}
+.header-line {
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+  margin: 25px auto;
+}
+
+.header-content p {
+  display: block;
+  margin: 0 auto 20px;
+}
+/* Button im Header */
+.learn-more {
+  background-color: transparent;
+  color: #31a2c4;
+  border: 2px solid #31a2c4;
+  border-radius: 10px;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid;
+  box-shadow: 3px 1px 5px 1px black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Styling for "Our Story" section */
+.our-story {
+  margin-top: 30px;
+  max-width: 50%; /* Begrenze die Breite des Textcontainers */
+  margin: 0 auto; /* Zentriere den Text in der Mitte */
+  text-align: start; /* Zentriere den Textinhalt im Container */
+  background-color: #fff;
+  display: flex; /* Füge Flexbox-Layout hinzu */
+  align-items: flex-start; /* Zentriere die Elemente vertikal an der Oberseite */
+  justify-content: space-between; /* Platziere die Elemente mit Abstand nebeneinander */
+  flex-direction: row; /* Ändere die Flexbox-Ausrichtung auf vertikal für mobile Geräte */
+  align-items: center; /* Zentriere die Elemente horizontal für mobile Geräte */
+}
+.our-story h2 {
+  font-size: 28px;
+}
+.our-story p {
+  flex: 1; /* Lass den Text den verbleibenden Platz neben dem Bild einnehmen */
+}
+.white-button {
+  background-color: transparent;
+  color: #31a2c4;
+  border: 2px solid #31a2c4;
+  border-radius: 10px;
+  border-right: 0.5px black solid;
+  border-bottom: 0.5px black solid;
+  box-shadow: 3px 1px 5px 1px black;
+  padding: 10px 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+/* Stil für das Logo */
+.our-story img {
+  width: 25%; /* Passe die Breite des Logos auf 100% an, um es für mobile Geräte anzupassen */
+  margin: 0 15px;
+}

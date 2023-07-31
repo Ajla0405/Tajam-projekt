@@ -16,18 +16,24 @@ body {
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 30px 0;
-  margin-left: 0;
+  padding: 20px 0;
+  /*margin-left: 0;*/
+  /*my code*/
 }
-.header img {
- 
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-left: 60px;
 }
 .header nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  margin: 25px auto;
-  margin-left: 33.33%;
+  justify-content: end;
+
+  /*margin: 25px auto;
+  /*margin-left: 33.33%;*/
 }
 .header nav ul li {
   margin: 0 15px;
@@ -36,7 +42,14 @@ body {
 .header nav li:hover {
   color: #a401fc;
 }
+
+#logo {
+  display: flex;
+  justify-content: start;
+  justify-content: left;
+}
 .header-content {
+  padding: 30px;
   margin-top: 30px;
   max-width: 600px; /* Begrenze die Breite des Textcontainers */
   margin: 0 auto; /* Zentriere den Text in der Mitte */
@@ -88,6 +101,11 @@ body {
 .our-story p {
   flex: 1; /* Lass den Text den verbleibenden Platz neben dem Bild einnehmen */
 }
+/*Logo */
+.logo1 {
+  padding-right: 45px;
+}
+
 .white-button {
   background-color: transparent;
   color: #31a2c4;

@@ -123,3 +123,24 @@ body {
   width: 25%; /* Passe die Breite des Logos auf 100% an, um es für mobile Geräte anzupassen */
   margin: 0 15px;
 }
+
+/* Stil für Sections "WATCH", "EXPERTISE", "TEAM" */
+.watch {
+  background-image: url(design-assets/bgk-middle.png);
+  width: 100%;
+  height: 550px;
+
+
+
+}
+.expertise {
+  background-color: white;
+  width: 100%;
+  height: 680px;
+  
+}
+.team {
+ background-image: url(./design-assets/bgk-team.png);
+ width: 100%;
+ height: 712px;
+}

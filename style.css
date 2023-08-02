@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -43,11 +43,6 @@ body {
   color: #a401fc;
 }
 
-#logo {
-  display: flex;
-  justify-content: start;
-  justify-content: left;
-}
 .header-content {
   padding: 30px;
   margin-top: 30px;
@@ -74,7 +69,7 @@ body {
 .learn-more {
   background-color: transparent;
   color: #31a2c4;
-  border: 2px solid #31a2c4;
+  border: 2px solid #21012c;
   border-radius: 10px;
   border-right: 0.5px black solid;
   border-bottom: 0.5px black solid;
@@ -82,15 +77,23 @@ body {
   padding: 10px 20px;
   cursor: pointer;
 }
+.learn-more:hover {
+  animation: blink 3.5s alternate 15;
+}
+@keyframes blink {
+  from {
+    background: #eee;
+  }
+  to {
+    background: #3e0252;
+  }
+}
 /* Styling for "Our Story" section */
 .our-story {
-  margin-top: 30px;
-  max-width: 50%; /* Begrenze die Breite des Textcontainers */
-  margin: 0 auto; /* Zentriere den Text in der Mitte */
+  margin: 45px 0 0 0; /* Zentriere den Text in der Mitte */
   text-align: start; /* Zentriere den Textinhalt im Container */
   background-color: #fff;
   display: flex; /* Füge Flexbox-Layout hinzu */
-  align-items: flex-start; /* Zentriere die Elemente vertikal an der Oberseite */
   justify-content: space-between; /* Platziere die Elemente mit Abstand nebeneinander */
   flex-direction: row; /* Ändere die Flexbox-Ausrichtung auf vertikal für mobile Geräte */
   align-items: center; /* Zentriere die Elemente horizontal für mobile Geräte */
@@ -103,13 +106,14 @@ body {
 }
 /*Logo */
 .logo1 {
+  border: solid 1px rgb(255, 0, 0);
   padding-right: 45px;
 }
 
 .white-button {
   background-color: transparent;
   color: #31a2c4;
-  border: 2px solid #31a2c4;
+  border: 2px solid #fcfcfc;
   border-radius: 10px;
   border-right: 0.5px black solid;
   border-bottom: 0.5px black solid;
@@ -118,6 +122,19 @@ body {
   margin: 15px;
   cursor: pointer;
 }
+
+.white-button:hover {
+  animation: blink 3.5s alternate 15;
+}
+@keyframes blink {
+  from {
+    background: #eee;
+  }
+  to {
+    background: #000000;
+  }
+}
+
 /* Stil für das Logo */
 .our-story img {
   width: 25%; /* Passe die Breite des Logos auf 100% an, um es für mobile Geräte anzupassen */

@@ -145,11 +145,35 @@ body {
 }
 
 /* Stil für Sections "WATCH", "EXPERTISE", "TEAM" */
-
 .watch {
   background-image: url(design-assets/bgk-middle.png);
   width: 100%;
   height: 550px;
+  font-family: 'REM', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watchButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.watchButtons p {
+  margin-top: 30px;
+ 
+}
+.watchButtons img {
+  height: 100px;
+  width: 100px;
+
 }
 
 /* font size -12 (or 13px), logo 100x100px */
@@ -161,41 +185,165 @@ font-family: 'REM', sans-serif; */
 
 hr {
   width: 50px;
+  height: 2px;
+  
 }
 
 .expertise {
-  background-color: white;
+  background-color: #FFFFFF;
   width: 100%;
   height: 680px;
   height: 750px;
-  /*font size: 17px, underneath: 13px, br-line 50px wide, 1grid-element: 320x250px, font size: 12px (both headline and text), logo ca 50px height */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* 1grid-element: 320x250px, font size: 12px (both headline and text), logo ca 50px height */
+}.expertiseHeader {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.expertiseHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #403E4B;
+  
+}
+.expertiseHeader p {
+  font-family: 'Playfair Display', serif;
+
+  font-size: 0.9rem;
+  color: #77777C;
+  font-weight: 700;
+  margin-top: 0;
+}
+.expertiseHeader hr {
+  background-color: #C5C4C9;
+  border: none;
+  margin-top: 15px;
+}
+.expertiseGrid {
+  width: 950px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: auto;
+ 
+}
+.gridItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid #C5C4C9;
+  font-family: 'REM', sans-serif; 
+  
+  font-size: 0.8rem;
+  color: #77777C;
+
+}
+.gridItem h4 {
+  font-weight: 700;
+  margin-top: 15px;
+}
+.gridItem p {
+  padding: 20px;
+}
+.gridItem img {
+  width: 50px;
+  height: 50px;
+
+}
+#oneone, #onetwo, #onethree {
+  border-top: none;
+}
+#twoone, #twotwo, #twothree {
+  border-bottom: none;
+}
+#oneone, #twoone {
+  border-left: none;
+}
+#onethree, #twothree {
+  border-right: none;
 }
 .team {
   background-image: url(./design-assets/bgk-team.png);
   width: 100%;
-  height: 712px;
-  background-image: url(./design-assets/bgk-team.png);
-  width: 100%;
   height: 710px;
-  color: white;
+  color: #F5F5F7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teamHeader {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.teamHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+}
+.teamHeader p {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  color: #9E9CAF;
+  margin-top: 5px;
+}
+  
+.teamHeader hr {
+  color: #5E5C7D;
+  background-color: #5E5C7D;
+  border: none;
+  margin-top: 20px;
 }
 .teamTiles {
   width: 942px;
-  height: 396px;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
+
 .imagePlaceholder {
   width: 220px;
   height: 229px;
+  background-color: #F5F5F7;
+  border: 1px solid #F5F5F7;
 }
 .namePlaceholder {
   width: 220px;
   height: 77px;
+  background-color: transparent;
+  border: 1px solid #5E5C7D;
+  text-align: center;
+}
+.namePlaceholder p {
+  color: #9E9CAF;
+  font-size: 0.7rem;
+}
+.namePlaceholder h4 {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #F5F5F7;
 }
 .teamButton {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  
 }
 .teamButton button {
   height: 40px;
@@ -203,10 +351,21 @@ hr {
   background-color: transparent;
   border: 1px solid #56b2b0;
   color: #56b2b0;
-  margin-top: 25px;
+  margin-top: 20px;
   padding: 10px;
   font-weight: 600;
 }
+.teamButton:hover {
+  cursor: pointer;
+
+}
+.teamButton h5 {
+  color: #9E9CAF;
+  font-weight: 100;
+  
+}
+/* ENDE 3 SECTIONS (PIOTR) */
+
 .contact {
   position: relative;
   display: flex;

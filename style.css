@@ -122,3 +122,100 @@ body {
   width: 25%; /* Passe die Breite des Logos auf 100% an, um es für mobile Geräte anzupassen */
   margin: 0 15px;
 }
+
+/* Stil für Sections "WATCH", "EXPERTISE", "TEAM" */
+.watch {
+  background-image: url(design-assets/bgk-middle.png);
+  width: 100%;
+  height: 550px;
+}
+.expertise {
+  background-color: white;
+  width: 100%;
+  height: 680px;
+}
+.team {
+  background-image: url(./design-assets/bgk-team.png);
+  width: 100%;
+  height: 712px;
+}
+.contact {
+  position: relative;
+  display: flex;
+  min-height: 650px;
+  padding-top: 50px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.formular {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  width: 50%;
+  gap: 15px;
+  border-radius: 5px;
+  margin-left: 75px;
+}
+.headline {
+  font-size: 25px;
+}
+
+.formular-box {
+  display: block;
+  width: 70%;
+  height: 40px;
+  padding: 10px 12px;
+  font-size: 15px;
+  color: rgb(101, 97, 97);
+  border: 1px solid #cccccc;
+}
+
+.formular-message {
+  font-size: 15px;
+  padding: 10px 12px;
+  color: rgb(101, 97, 97);
+  border: 1px solid #cccccc;
+  width: 70%;
+}
+
+.formular-submit {
+  display: block;
+  width: 150px;
+  height: 40px;
+  margin-top: 10px;
+  justify-content: start;
+  border: 2px solid #00e0d0;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  color: #00e0d0;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.firma-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.clients {
+  font-size: 25px;
+}
+.logos {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.img-logo {
+  width: 140px;
+  margin-bottom: 30px;
+  padding: 20px;
+  max-width: 100%;
+  display: inline-block;
+}

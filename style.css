@@ -112,6 +112,11 @@ body {
 .logo1 {
   padding: 45px;
 }
+.story {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .white-button {
   background-color: transparent;
@@ -149,7 +154,7 @@ body {
   background-image: url(design-assets/bgk-middle.png);
   width: 100%;
   height: 550px;
-  font-family: 'REM', sans-serif;
+  font-family: "REM", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: white;
@@ -164,16 +169,13 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 .watchButtons p {
   margin-top: 30px;
- 
 }
 .watchButtons img {
   height: 100px;
   width: 100px;
-
 }
 
 /* font size -12 (or 13px), logo 100x100px */
@@ -186,11 +188,10 @@ font-family: 'REM', sans-serif; */
 hr {
   width: 50px;
   height: 2px;
-  
 }
 
 .expertise {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100%;
   height: 680px;
   height: 750px;
@@ -199,7 +200,8 @@ hr {
   justify-content: flex-start;
   flex-direction: column;
   /* 1grid-element: 320x250px, font size: 12px (both headline and text), logo ca 50px height */
-}.expertiseHeader {
+}
+.expertiseHeader {
   text-align: center;
   display: flex;
   align-items: center;
@@ -207,22 +209,21 @@ hr {
   margin-top: 40px;
 }
 .expertiseHeader h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.3rem;
   font-weight: 500;
-  color: #403E4B;
-  
+  color: #403e4b;
 }
 .expertiseHeader p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 
   font-size: 0.9rem;
-  color: #77777C;
+  color: #77777c;
   font-weight: 700;
   margin-top: 0;
 }
 .expertiseHeader hr {
-  background-color: #C5C4C9;
+  background-color: #c5c4c9;
   border: none;
   margin-top: 15px;
 }
@@ -233,7 +234,6 @@ hr {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: auto;
- 
 }
 .gridItem {
   display: flex;
@@ -241,12 +241,11 @@ hr {
   text-align: center;
   align-content: center;
   justify-content: center;
-  border: 1px solid #C5C4C9;
-  font-family: 'REM', sans-serif; 
-  
-  font-size: 0.8rem;
-  color: #77777C;
+  border: 1px solid #c5c4c9;
+  font-family: "REM", sans-serif;
 
+  font-size: 0.8rem;
+  color: #77777c;
 }
 .gridItem h4 {
   font-weight: 700;
@@ -258,25 +257,33 @@ hr {
 .gridItem img {
   width: 50px;
   height: 50px;
-
 }
-#oneone, #onetwo, #onethree {
+#oneone,
+#onetwo,
+#onethree {
   border-top: none;
 }
-#twoone, #twotwo, #twothree {
+#twoone,
+#twotwo,
+#twothree {
   border-bottom: none;
 }
-#oneone, #twoone {
+#oneone,
+#twoone {
   border-left: none;
 }
-#onethree, #twothree {
+#onethree,
+#twothree {
   border-right: none;
 }
 .team {
   background-image: url(./design-assets/bgk-team.png);
   width: 100%;
+  height: 712px;
+  background-image: url(./design-assets/bgk-team.png);
+  width: 100%;
   height: 710px;
-  color: #F5F5F7;
+  color: #f5f5f7;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -287,22 +294,21 @@ hr {
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
 .teamHeader h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.3rem;
 }
 .teamHeader p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 0.9rem;
-  color: #9E9CAF;
+  color: #9e9caf;
   margin-top: 5px;
 }
-  
+
 .teamHeader hr {
-  color: #5E5C7D;
-  background-color: #5E5C7D;
+  color: #5e5c7d;
+  background-color: #5e5c7d;
   border: none;
   margin-top: 20px;
 }
@@ -317,24 +323,24 @@ hr {
 .imagePlaceholder {
   width: 220px;
   height: 229px;
-  background-color: #F5F5F7;
-  border: 1px solid #F5F5F7;
+  background-color: #f5f5f7;
+  border: 1px solid #f5f5f7;
 }
 .namePlaceholder {
   width: 220px;
   height: 77px;
   background-color: transparent;
-  border: 1px solid #5E5C7D;
+  border: 1px solid #5e5c7d;
   text-align: center;
 }
 .namePlaceholder p {
-  color: #9E9CAF;
+  color: #9e9caf;
   font-size: 0.7rem;
 }
 .namePlaceholder h4 {
   font-size: 0.9rem;
   margin-top: 10px;
-  color: #F5F5F7;
+  color: #f5f5f7;
 }
 .teamButton {
   display: flex;
@@ -343,7 +349,6 @@ hr {
   align-items: center;
   padding: 10px;
   margin-top: 20px;
-  
 }
 .teamButton button {
   height: 40px;
@@ -357,12 +362,10 @@ hr {
 }
 .teamButton:hover {
   cursor: pointer;
-
 }
 .teamButton h5 {
-  color: #9E9CAF;
+  color: #9e9caf;
   font-weight: 100;
-  
 }
 /* ENDE 3 SECTIONS (PIOTR) */
 
@@ -374,6 +377,8 @@ hr {
   flex-wrap: nowrap;
   align-items: flex-start;
   flex: 1;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .formular {
@@ -383,7 +388,8 @@ hr {
   width: 50%;
   gap: 15px;
   border-radius: 5px;
-  margin-left: 75px;
+  align-items: start;
+  margin-left: 70px;
 }
 .headline {
   font-size: 25px;
@@ -391,7 +397,7 @@ hr {
 
 .formular-box {
   display: block;
-  width: 70%;
+  width: 80%;
   height: 40px;
   padding: 10px 12px;
   font-size: 15px;
@@ -404,7 +410,7 @@ hr {
   padding: 10px 12px;
   color: rgb(101, 97, 97);
   border: 1px solid #cccccc;
-  width: 70%;
+  width: 80%;
 }
 
 .formular-submit {
@@ -422,27 +428,106 @@ hr {
   text-transform: uppercase;
 }
 .firma-logo {
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
   width: 50%;
-  display: flex;
-  flex-direction: column;
   margin-top: 60px;
+  margin-right: 70px;
 }
 .clients {
   font-size: 25px;
 }
 .logos {
+  position: relative;
   display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
   position: relative;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .img-logo {
   width: 140px;
   margin-bottom: 30px;
   padding: 20px;
-  max-width: 100%;
-  display: inline-block;
+}
+
+.last-part {
+  background-image: url(./design-assets/bgk-footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  flex: 1;
+  min-height: 400px;
+  padding-right: 60px;
+  padding-left: 60px;
+  position: relative;
+}
+.footer {
+  flex: 1;
+  position: relative;
+}
+
+.title {
+  padding-left: 40px;
+  display: flex;
+  align-items: baseline;
+  height: 65px;
+}
+.title1 {
+  display: flex;
+  margin-bottom: 15px;
+}
+.adress {
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.phone {
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-left: 40px;
+}
+.subscribe {
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.input-footer {
+  height: 40px;
+  width: 60%;
+  margin-bottom: 5px;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  border: 1px solid #cccccc;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.icons- {
+  flex-direction: row;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.submit-footer {
+  height: 40px;
+  width: 25%;
+  margin-bottom: 5px;
+  color: #fff;
+  border: 1px solid #cccccc;
+  background-color: rgba(255, 251, 251, 0.4);
+}
+.help-term-privacy {
 }

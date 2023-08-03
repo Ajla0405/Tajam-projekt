@@ -94,28 +94,30 @@ body {
 }
 /* Styling for "Our Story" section */
 .our-story {
-  margin: 45px 0 0 0; /* Zentriere den Text in der Mitte */
+  /*margin: 45px 0 0 0; /* Zentriere den Text in der Mitte */
   text-align: start; /* Zentriere den Textinhalt im Container */
   background-color: #fff;
   display: flex; /* Füge Flexbox-Layout hinzu */
   justify-content: space-between; /* Platziere die Elemente mit Abstand nebeneinander */
   flex-direction: row; /* Ändere die Flexbox-Ausrichtung auf vertikal für mobile Geräte */
   align-items: center; /* Zentriere die Elemente horizontal für mobile Geräte */
+  height: 500px;
 }
 .our-story h2 {
   font-size: 28px;
 }
 .our-story p {
-  flex: 1; /* Lass den Text den verbleibenden Platz neben dem Bild einnehmen */
+  /*flex: 1; /* Lass den Text den verbleibenden Platz neben dem Bild einnehmen */
 }
 /*Logo */
 .logo1 {
   padding: 45px;
+  width: 30%;
 }
 .story {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  text-align: start;
+  margin: 50px 50px;
+  width: 70%;
 }
 
 .white-button {
@@ -126,8 +128,8 @@ body {
   border-right: 0.5px black solid;
   border-bottom: 0.5px black solid;
   box-shadow: 3px 1px 5px 1px black;
-  padding: 10px 20px 40px;
-  margin: 15px;
+  padding: 10px 20px 10px;
+  margin-top: 15px;
   cursor: pointer;
 }
 

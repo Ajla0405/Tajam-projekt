@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-size: cover;
 }
 
 body {
@@ -152,6 +153,8 @@ body {
 /* Stil für Sections "WATCH", "EXPERTISE", "TEAM" */
 .watch {
   background-image: url(design-assets/bgk-middle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 550px;
   font-family: "REM", sans-serif;
@@ -278,9 +281,7 @@ hr {
 }
 .team {
   background-image: url(./design-assets/bgk-team.png);
-  width: 100%;
-  height: 712px;
-  background-image: url(./design-assets/bgk-team.png);
+  background-repeat: no-repeat;
   width: 100%;
   height: 710px;
   color: #f5f5f7;
